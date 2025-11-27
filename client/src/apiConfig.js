@@ -3,4 +3,4 @@ const isLocal = window.location.hostname === "localhost" || window.location.host
 
 export const API_URL = isLocal 
   ? "http://localhost:5000" 
-  : "LINK_RENDER_CUA_BAN"; 
+  : "https://music-sharing-app-6qd8.onrender.com"; 
