@@ -31,7 +31,8 @@
 MusicSharingApp/
 ├── server/       # Mã nguồn Backend (Node.js)
 ├── client/       # Mã nguồn Frontend (ReactJS)
-└── README.md     # Tài liệu hướng dẫn
+└── README.md     # Tài liệu hướng dẫn 
+```
 
 
 
