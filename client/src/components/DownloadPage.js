@@ -2,20 +2,21 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import { FaDownload, FaMusic } from 'react-icons/fa';
+import { API_URL } from '../apiConfig';
 
 function DownloadPage() {
   const { id } = useParams();
   const [fileInfo, setFileInfo] = useState(null);
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/api/file/${id}`)
+    axios.get(`${API_URL}/api/file/${id}`)
       .then(res => setFileInfo(res.data))
       .catch(err => console.log(err));
   }, [id]);
 
   const handleDownload = () => {
     // Gọi API download để trình duyệt tự tải về
-    window.open(`http://localhost:5000/api/download/${id}`, '_blank');
+    window.open(`${API_URL}/api/download/${id}`, '_blank');
   };
 
   return (

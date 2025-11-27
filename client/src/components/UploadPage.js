@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { FaCloudUploadAlt, FaMusic, FaCheckCircle } from 'react-icons/fa';
+import { API_URL } from '../apiConfig';
 
 function UploadPage() {
   const [file, setFile] = useState(null);
@@ -23,7 +24,7 @@ function UploadPage() {
     setUploading(true);
     try {
       // Thay localhost:5000 bằng link Render nếu đã deploy
-      const res = await axios.post('http://localhost:5000/api/upload', formData);
+      const res = await axios.post(`${API_URL}/api/upload`, formData);
       
       setDownloadLink(`${window.location.origin}/download/${res.data.fileId}`);
       
