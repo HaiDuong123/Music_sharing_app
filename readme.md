@@ -33,56 +33,8 @@ MusicSharingApp/
 ├── client/       # Mã nguồn Frontend (ReactJS)
 └── README.md     # Tài liệu hướng dẫn
 
-Hướng dẫn cài đặt và chạy (Localhost)
-Để chạy dự án này trên máy cá nhân, bạn cần cài đặt Node.js và có tài khoản MongoDB Atlas + Cloudinary.
 
-1. Cài đặt Backend (Server)
-Mở terminal (cửa sổ lệnh) tại thư mục server:
-cd server
-npm install
 
-Dưới đây là toàn bộ file README.md cho dự án Music Sharing App, được viết lại đầy đủ theo phong cách và trích dẫn bạn yêu cầu, kết hợp với phần hướng dẫn cài đặt chi tiết.
-
-Bạn hãy copy toàn bộ nội dung này vào file README.md nhé.
-
-Markdown
-
-# 🎵 Music Sharing App (MERN Stack)
-
-Đây là ứng dụng chia sẻ nhạc chất lượng cao, giúp người dùng tải lên các tệp âm thanh (MP3), lưu trữ trên đám mây và tạo liên kết chia sẻ cho bạn bè tải xuống hoặc nghe trực tuyến.
-
-[cite_start][cite: 17, 18] Dự án được xây dựng để giải quyết vấn đề chia sẻ file âm thanh khó khăn qua tin nhắn hoặc email, vốn thường làm giảm chất lượng âm thanh và gây bất tiện cho các nhà sáng tạo nội dung.
-
-## 🚀 Tính năng chính
-
-* [cite_start]**Tải lên nhạc:** Giao diện kéo thả hoặc chọn tệp, hỗ trợ các định dạng âm thanh như MP3[cite: 25, 26].
-* [cite_start]**Lưu trữ Đám mây:** Tích hợp **Cloudinary** để lưu trữ file đã tải lên, giúp việc chia sẻ trở nên dễ dàng[cite: 21].
-* **Nghe trực tuyến:** Tự động phát nhạc (Preview) ngay sau khi tải lên thành công.
-* [cite_start]**Chia sẻ liên kết:** Hệ thống tự động tạo link tải xuống để người dùng chia sẻ với bạn bè[cite: 31, 33].
-* [cite_start]**Giao diện Tải xuống:** Cung cấp giao diện riêng biệt để người nhận tải xuống tệp từ máy chủ[cite: 20, 23].
-
-## 🛠️ Công nghệ sử dụng
-
-[cite_start]Dự án này được xây dựng bằng ngăn xếp công nghệ **MERN** (MongoDB, Express, React, Node.js)[cite: 19].
-
-**Backend:**
-* [cite_start]Node.js & Express: Xử lý server và API tải xuống[cite: 22, 23].
-* [cite_start]MongoDB & Mongoose: Hỗ trợ việc lưu trữ thông tin tệp tải lên[cite: 22].
-* [cite_start]Cloudinary: Dịch vụ lưu trữ tệp tin đám mây[cite: 21].
-* Multer & Multer-storage-cloudinary: Middleware xử lý việc upload file.
-
-**Frontend:**
-* ReactJS
-* Axios (Gọi API)
-* React-icons (Giao diện icon)
-
-## 📂 Cấu trúc thư mục
-
-```text
-MusicSharingApp/
-├── server/       # Mã nguồn Backend (Node.js & Express)
-├── client/       # Mã nguồn Frontend (ReactJS)
-└── README.md     # Tài liệu hướng dẫn
 ⚙️ Hướng dẫn cài đặt và chạy (Localhost)
 Để chạy dự án này trên máy cá nhân, bạn cần cài đặt Node.js và có tài khoản MongoDB Atlas + Cloudinary.
 
